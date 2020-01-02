@@ -6,7 +6,10 @@
       <uri>model://sun</uri>
     </include>
     <include>
-      <uri>model://ocean_waves</uri>
+      <uri>model://ground_plane</uri>
+    </include>
+    <include>
+      <uri>model://boat</uri>
     </include>
      <physics name='default_physics' default='0' type='ode'>
       <gravity>0 0 -9.8066</gravity>
