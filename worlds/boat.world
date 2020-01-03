@@ -5,9 +5,9 @@
     <include>
       <uri>model://sun</uri>
     </include>
-    <include>
+    <!-- <include>
       <uri>model://ground_plane</uri>
-    </include>
+    </include> -->
     <include>
       <uri>model://boat</uri>
     </include>

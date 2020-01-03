@@ -562,7 +562,7 @@
       <baroTopic>/baro</baroTopic>
     </plugin>
     <static>0</static>
-    <!-- <plugin name='usv_dynamics_wamv_dynamics_plugin' filename='libusv_gazebo_dynamics_plugin.so'>
+    <plugin name='usv_dynamics_wamv_dynamics_plugin' filename='libgazebo_usv_dynamics_plugin.so'>
       <bodyName>base_link</bodyName>
       <waterLevel>0</waterLevel>
       <waterDensity>997.8</waterDensity>
@@ -583,7 +583,7 @@
       <boatLength>4.9</boatLength>
       <length_n>2</length_n>
       <wave_model>ocean_waves</wave_model>
-    </plugin> -->
+    </plugin>
     <plugin name='mavlink_interface' filename='libgazebo_mavlink_interface.so'>
       <robotNamespace></robotNamespace>
       <imuSubTopic>/imu</imuSubTopic>
